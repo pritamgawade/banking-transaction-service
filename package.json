@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node --watch --es-module-specifier-resolution=node src/index.js",
-    "test": "jest"
+    "test": "jest --coverage --watch"
   },
   "keywords": [],
   "author": "Pritam Gawade",
